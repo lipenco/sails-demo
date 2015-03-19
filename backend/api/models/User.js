@@ -8,7 +8,8 @@
 module.exports = {
 
   attributes: {
+    twitter: 'string',
+    displayName: 'string'
 
   }
 };
-

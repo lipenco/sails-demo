@@ -14,7 +14,7 @@ var paths = {
 gulp.task('default', ['watch']);
 
 gulp.task('watch', ['serve'], function() {
-  gulp.watch(paths.appSrc, ['scripts']);
+  gulp.watch(paths.appSrc, ['copyAll']);
   gulp.watch(paths.bowerSrc, ['vendors']);
   gulp.watch(paths.bowerSrc, ['copyAll']);
 })
